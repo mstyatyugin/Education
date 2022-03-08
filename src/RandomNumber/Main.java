@@ -5,15 +5,18 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int answer = (int) (Math.random() * 100 + 1);
+        System.out.println("Угадай число!!!");
+
+        int randomNumber = (int) (Math.random() * 100 + 1);
         for (int i = 0; i < 10; i++) {
-            System.out.println("Угадай число!!!");
-            int UserInput = new Scanner(System.in).nextInt();
-            if (UserInput == answer) {
+
+            int UserAnswer = new Scanner(System.in).nextInt();
+            if (UserAnswer == randomNumber) {
                 System.out.println("Верно!!!");
-            } else if (UserInput > answer) {
+                break;
+            } else if (UserAnswer > randomNumber) {
                 System.out.println("Число больше загаданного");
-            } else if (UserInput < answer) {
+            } else {
                 System.out.println("Число меньше загаданного");
             }
         }
