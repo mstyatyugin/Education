@@ -1,18 +1,19 @@
-package FromPaladins;
+package PaladinsExTwo;
 
 import java.util.Scanner;
 
-public class PaladinsExTwo {
-
+public class PaladinsExTwoCase1 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int value1 = scan.nextInt();
-        if (value1 > 10) {
+        int value = scan.nextInt();
+        if (value > 10) {
             System.out.println("Число больше 10");
-        } else {
+        } else if (value < 10) {
             System.out.println("Число меньше 10");
+        } else  {
+            System.out.println("Число равно 10");
         }
     }
 }
