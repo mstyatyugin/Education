@@ -42,7 +42,6 @@ public class PaladinsExTwoCase2 {
             System.out.println(statement);
         }
 
-
         b = 60;
         System.out.println("Введите a ");
         a = sc.nextInt() + b / 2;
