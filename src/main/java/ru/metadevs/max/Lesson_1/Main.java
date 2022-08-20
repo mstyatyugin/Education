@@ -1,4 +1,4 @@
-package Lesson_1;
+package ru.metadevs.max.Lesson_1;
 
 public class Main {
 
