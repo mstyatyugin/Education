@@ -5,6 +5,4 @@ public interface Employee {
     void printPersonalInfo();
 
     void salaryValidate(int salary);
-
 }
-

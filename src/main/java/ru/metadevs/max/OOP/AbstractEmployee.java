@@ -1,6 +1,7 @@
 package ru.metadevs.max.OOP;
 
 public abstract class AbstractEmployee implements Employee {
+
     private String name;
     private int age;
     private String companyName;
@@ -21,16 +22,6 @@ public abstract class AbstractEmployee implements Employee {
 
     public void setSalary(int salary) {
         this.salary = salary;
-    }
-
-    protected AbstractEmployee(String name, int age, String companyName, int salary) {
-        this.name = name;
-        this.age = age;
-        this.companyName = companyName;
-        this.salary = salary;
-    }
-
-    protected AbstractEmployee() {
     }
 
     @Override

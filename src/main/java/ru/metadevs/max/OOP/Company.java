@@ -12,7 +12,7 @@ public class Company implements IdealCompany {
         this.employees = new AbstractEmployee[amount];
     }
 
-    public Employee[] getEmployees() {
+    public AbstractEmployee[] getEmployees() {
         return employees;
     }
 

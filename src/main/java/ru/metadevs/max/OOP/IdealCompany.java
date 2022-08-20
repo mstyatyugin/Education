@@ -8,6 +8,6 @@ public interface IdealCompany {
 
     void printEmployees();
 
-    Employee employeeByName(String name);
+    AbstractEmployee employeeByName(String name);
 }
 
