@@ -13,7 +13,7 @@ public class Appliaction {
         company.hire(sasha, 100);
         company.hire(pasha, 100);
         company.hire(alesha, 100);
-//        sasha.setSalary(100);
+        //       sasha.setSalary(100);
 //        sasha.setCompanyName("Рога и Копыта");
 //        System.out.println(Arrays.toString(company.getEmployees()));
 //        company.hire(pasha);
